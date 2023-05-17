@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mbrstatic", "mbrstatic\mbrs
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "konstruktur", "konstruktur\konstruktur.vcxproj", "{BF086482-9D8E-47DA-B5B3-DC103214936E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "destruktur", "destruktur\destruktur.vcxproj", "{93AB71AD-FB99-4039-A67D-62B9553A7D49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{BF086482-9D8E-47DA-B5B3-DC103214936E}.Release|x64.Build.0 = Release|x64
 		{BF086482-9D8E-47DA-B5B3-DC103214936E}.Release|x86.ActiveCfg = Release|Win32
 		{BF086482-9D8E-47DA-B5B3-DC103214936E}.Release|x86.Build.0 = Release|Win32
+		{93AB71AD-FB99-4039-A67D-62B9553A7D49}.Debug|x64.ActiveCfg = Debug|x64
+		{93AB71AD-FB99-4039-A67D-62B9553A7D49}.Debug|x64.Build.0 = Debug|x64
+		{93AB71AD-FB99-4039-A67D-62B9553A7D49}.Debug|x86.ActiveCfg = Debug|Win32
+		{93AB71AD-FB99-4039-A67D-62B9553A7D49}.Debug|x86.Build.0 = Debug|Win32
+		{93AB71AD-FB99-4039-A67D-62B9553A7D49}.Release|x64.ActiveCfg = Release|x64
+		{93AB71AD-FB99-4039-A67D-62B9553A7D49}.Release|x64.Build.0 = Release|x64
+		{93AB71AD-FB99-4039-A67D-62B9553A7D49}.Release|x86.ActiveCfg = Release|Win32
+		{93AB71AD-FB99-4039-A67D-62B9553A7D49}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
