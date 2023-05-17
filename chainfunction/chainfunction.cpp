@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-
-class buku 
+class buku
 {
 	string judul;
 public:
@@ -12,7 +11,16 @@ public:
 	}
 	string getjudul()
 	{
-		return this->Judul;
+		return this->judul;
 	}
 
-};
+}bukunya;
+
+int main()
+{
+	//bukunya.setjudul("Matematika");
+	//cout << bukunya.getjudul();
+	cout << bukunya.setJudul("matematika").getjudul(); // chain function calls
+	return 0;
+}
+
