@@ -12,36 +12,3 @@ public:
 	void isiData();
 };
 //Definisi member Function
-angka::angka(int i) { // constructor
-	panjang = i;
-	arr = new int[i];
-	isiData();
-}
-
-angka::~angka() { // Destructor
-	cout << endl;
-	cetakData();
-	delete[]arr;
-	cout << "Alamat Array Sudah Dilepaskan" << endl;
-}
-
-void angka::cetakData() {
-	for (int i = 1;i <= panjang;i++) {
-		cout << i << " = " << arr[i] << endl;
-	}
-}
-
-void angka::isiData() {
-	for (int i = 1;i <= panjang;i++) {
-		cout << i << " = ";cin >> arr[i];
-	}
-	cout << endl;
-}
-
-int main() {
-	angka belajarcpp(3); //constructor di panggil
-	angka* ptrBelajarcpp = new angka(5); //Constructor di panggil
-	delete ptrBelajarcpp; // Destructor di panggil
-
-	return 0;
-}// destructor di panggil
